@@ -1,5 +1,5 @@
 * {
-   max-width: 1280px;
+   max-width: 1440px;
    margin: 0;
    padding: 0;
 }
@@ -19,6 +19,7 @@ section {
    height: 100vh;
    /* display: grid; */
    /* place-items: center; */
+   overflow: hidden;
 }
 
 
@@ -28,4 +29,5 @@ section {
    background-size: cover;
    height: 100vh;
    opacity: 0.8;
+   z-index: -1;
 }
