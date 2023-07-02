@@ -1,6 +1,10 @@
 /* eslint-disable no-undef */
 import { useEffect } from 'react';
 import './App.css';
+import { Parallax } from 'react-parallax';
+import image1 from '/images/background_01.png';
+import image2 from '/images/background_02.png';
+import image3 from '/images/background_03.png';
 
 function App() {
    useEffect(() => {
@@ -25,6 +29,27 @@ function App() {
          </header>
          <main>
             <section>
+               <Parallax className="image parallax-element" bgImage={image1} strength={500}>
+                  <div className="container">
+                     <p>BACKGROUND 1</p>
+                  </div>
+               </Parallax>
+            </section>
+            <section>
+               <Parallax className="image parallax-element" bgImage={image2} strength={500}>
+                  <div className="container">
+                     <p>BACKGROUND 2</p>
+                  </div>
+               </Parallax>
+            </section>
+            <section>
+               <Parallax className="image parallax-element" bgImage={image3} strength={500}>
+                  <div className="container">
+                     <p>BACKGROUND 3</p>
+                  </div>
+               </Parallax>
+            </section>
+            {/* <section>
                <div
                   className="bg-cover parallax-element"
                   style={{ backgroundImage: `url('/images/background_01.png')` }}
@@ -32,25 +57,7 @@ function App() {
                <div className="container">
                   <p>Container</p>
                </div>
-            </section>
-            <section>
-               <div
-                  className="bg-cover parallax-element"
-                  style={{ backgroundImage: `url('/images/background_02.png')` }}
-               />
-               <div className="container">
-                  <p>Container</p>
-               </div>
-            </section>
-            <section>
-               <div
-                  className="bg-cover parallax-element"
-                  style={{ backgroundImage: `url('/images/background_03.png')` }}
-               />
-               <div className="container">
-                  <p>Container</p>
-               </div>
-            </section>
+            </section> */}
          </main>
       </>
    );
