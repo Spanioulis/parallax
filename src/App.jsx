@@ -28,24 +28,27 @@ function App() {
                <div
                   className="bg-cover parallax-element"
                   style={{ backgroundImage: `url('/images/background_01.png')` }}
-               >
-                  <div>Background 1</div>
+               />
+               <div className="container">
+                  <p>Container</p>
                </div>
             </section>
             <section>
                <div
                   className="bg-cover parallax-element"
                   style={{ backgroundImage: `url('/images/background_02.png')` }}
-               >
-                  Background 2
+               />
+               <div className="container">
+                  <p>Container</p>
                </div>
             </section>
             <section>
                <div
                   className="bg-cover parallax-element"
                   style={{ backgroundImage: `url('/images/background_03.png')` }}
-               >
-                  Background 3
+               />
+               <div className="container">
+                  <p>Container</p>
                </div>
             </section>
          </main>
