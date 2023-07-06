@@ -5,6 +5,7 @@ import { Parallax } from 'react-parallax';
 import image1 from '/images/background_01.png';
 import image2 from '/images/background_02.png';
 import image3 from '/images/background_03.png';
+import { Link } from 'react-router-dom';
 
 function App() {
    useEffect(() => {
@@ -26,10 +27,21 @@ function App() {
             <div>
                <h1>Parallax</h1>
             </div>
+
+            <nav>
+               <ul>
+                  <Link to="css" class="link">
+                     <li>CSS</li>
+                  </Link>
+                  <Link class="link">
+                     <li>Scroll Parallax</li>
+                  </Link>
+               </ul>
+            </nav>
          </header>
          <main>
             <section>
-               <Parallax className="image parallax-element" bgImage={image1} strength={500}>
+               <Parallax className="image parallax-element" bgImage={image1}>
                   <div className="container">
                      <p>BACKGROUND 1</p>
                   </div>
