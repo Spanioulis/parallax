@@ -1,0 +1,47 @@
+.content {
+   color: #000;
+   background-color: gainsboro;
+   font-size: large;
+   font-weight: 500;
+   padding: 3rem 5rem;
+}
+
+.bg-1 {
+   background-image: url('../images/selva_02.png');
+   background-position: center 75%;
+   background-repeat: no-repeat;
+   background-size: 110%;
+   background-attachment: fixed;
+   height: 500px;
+   display: grid;
+   place-items: center;
+
+   h1 {
+      font-size: 5rem;
+      color: white;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      background-color: transparent;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 1rem;
+   }
+}
+
+.bg-2 {
+   background-image: url('../images/selva_03.png');
+   background-position: center 75%;
+   background-repeat: no-repeat;
+   background-size: 110%;
+   background-attachment: fixed;
+   height: 500px;
+   display: grid;
+   place-items: center;
+
+   h1 {
+      font-size: 5rem;
+      color: white;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      background-color: transparent;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 1rem;
+   }
+}

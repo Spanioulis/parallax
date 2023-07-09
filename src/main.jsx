@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
+import { CssVanilla } from './pages/CssVanilla.jsx';
 
 const router = createBrowserRouter([
    {
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
    },
    {
       path: '/css',
-      element: <App />
+      element: <CssVanilla />
    }
 ]);
 

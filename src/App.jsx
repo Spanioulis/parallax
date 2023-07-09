@@ -30,10 +30,10 @@ function App() {
 
             <nav>
                <ul>
-                  <Link to="css" class="link">
+                  <Link to="css" className="link">
                      <li>CSS</li>
                   </Link>
-                  <Link class="link">
+                  <Link className="link">
                      <li>Scroll Parallax</li>
                   </Link>
                </ul>
