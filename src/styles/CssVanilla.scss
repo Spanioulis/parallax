@@ -1,3 +1,24 @@
+.nav-css {
+   background-color: rgba(0, 0, 0, 0.4);
+   display: flex;
+   justify-content: flex-end;
+   padding: 1rem;
+   position: fixed;
+   width: 100%;
+
+   ul {
+      text-decoration: none;
+
+      li {
+         color: white;
+
+         &:hover {
+            color: crimson;
+            scale: 1.15;
+         }
+      }
+   }
+}
 .content {
    color: #000;
    background-color: gainsboro;
@@ -6,7 +27,28 @@
    padding: 3rem 5rem;
 }
 
+.title {
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   color: transparent;
+   font-size: 5rem;
+   padding: 1rem;
+   -webkit-text-stroke: 0.3px whitesmoke;
+   // text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .bg-1 {
+   background-image: url('../images/selva_01.png');
+   background-position: top 25%;
+   background-repeat: no-repeat;
+   background-size: 115%;
+   background-attachment: fixed;
+   height: 500px;
+   display: grid;
+   place-items: center;
+}
+
+.bg-2 {
    background-image: url('../images/selva_02.png');
    background-position: center 75%;
    background-repeat: no-repeat;
@@ -15,18 +57,9 @@
    height: 500px;
    display: grid;
    place-items: center;
-
-   h1 {
-      font-size: 5rem;
-      color: white;
-      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-      background-color: transparent;
-      background-color: rgba(0, 0, 0, 0.3);
-      padding: 1rem;
-   }
 }
 
-.bg-2 {
+.bg-3 {
    background-image: url('../images/selva_03.png');
    background-position: center 75%;
    background-repeat: no-repeat;
@@ -35,13 +68,4 @@
    height: 500px;
    display: grid;
    place-items: center;
-
-   h1 {
-      font-size: 5rem;
-      color: white;
-      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-      background-color: transparent;
-      background-color: rgba(0, 0, 0, 0.3);
-      padding: 1rem;
-   }
 }
