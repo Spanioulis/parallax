@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import { useEffect } from 'react';
-import './App.css';
+import './App.scss';
 import { Parallax } from 'react-parallax';
 import image1 from '/images/background_01.png';
 import image2 from '/images/background_02.png';
@@ -33,13 +33,16 @@ function App() {
                   <Link to="css" className="link">
                      <li>CSS</li>
                   </Link>
+                  <Link to="parallax-js" className="link">
+                     <li>ParallaxJS</li>
+                  </Link>
                   <Link className="link">
                      <li>Scroll Parallax</li>
                   </Link>
                </ul>
             </nav>
          </header>
-         <main>
+         <main className="main">
             <section>
                <Parallax className="image parallax-element" bgImage={image1}>
                   <div className="container">

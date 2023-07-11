@@ -7,14 +7,18 @@
    width: 100%;
 
    ul {
-      text-decoration: none;
+      list-style-type: none;
+      a {
+         text-decoration: none;
 
-      li {
-         color: white;
+         li {
+            color: white;
+            text-decoration: none;
 
-         &:hover {
-            color: crimson;
-            scale: 1.15;
+            &:hover {
+               color: crimson;
+               scale: 1.15;
+            }
          }
       }
    }
