@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { CssVanilla, ParallaxJS } from './pages';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { CssVanilla, ReactParallax } from './pages';
 
 const router = createBrowserRouter([
    {
@@ -14,13 +15,15 @@ const router = createBrowserRouter([
       element: <CssVanilla />
    },
    {
-      path: '/parallax-js',
-      element: <ParallaxJS />
+      path: '/scroll-parallax',
+      element: <ReactParallax />
    }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
    <React.StrictMode>
-      <RouterProvider router={router} />
+      <ParallaxProvider>
+         <RouterProvider router={router} />
+      </ParallaxProvider>
    </React.StrictMode>
 );

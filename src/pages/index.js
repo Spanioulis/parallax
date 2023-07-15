@@ -1,4 +1,4 @@
 import { CssVanilla } from './CssVanilla';
-import { ParallaxJS } from './ParallaxJS';
+import { ReactParallax } from './ReactParallax';
 
-export { CssVanilla, ParallaxJS };
+export { CssVanilla, ReactParallax };

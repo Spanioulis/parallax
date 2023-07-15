@@ -1,0 +1,74 @@
+nav {
+   background-color: rgba(0, 0, 0);
+   display: flex;
+   justify-content: flex-end;
+   padding: 1rem;
+   position: fixed;
+   width: 100%;
+
+   ul {
+      list-style-type: none;
+
+      a {
+         text-decoration: none;
+
+         &:hover {
+            color: crimson;
+            transition: 1s ease-in-out;
+         }
+      }
+   }
+}
+
+.container {
+   position: relative;
+   &__bl1 {
+      display: grid;
+      place-items: center;
+      // background-attachment: fixed;
+      background-image: url('/images/basketball_01.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+
+      h1 {
+         position: absolute;
+         color: white;
+      }
+   }
+
+   &__bl2 {
+      display: grid;
+      place-items: center;
+      // background-attachment: fixed;
+      background-image: url('/images/basketball_02.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+
+      h1 {
+         position: absolute;
+         color: white;
+      }
+   }
+   &__bl3 {
+      display: grid;
+      place-items: center;
+      // background-attachment: fixed;
+      background-image: url('/images/basketball_03.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+
+      h1 {
+         position: absolute;
+         color: white;
+      }
+   }
+}

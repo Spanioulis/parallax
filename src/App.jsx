@@ -31,13 +31,10 @@ function App() {
             <nav>
                <ul>
                   <Link to="css" className="link">
-                     <li>CSS</li>
+                     <li>Vanilla CSS</li>
                   </Link>
-                  <Link to="parallax-js" className="link">
-                     <li>ParallaxJS</li>
-                  </Link>
-                  <Link className="link">
-                     <li>Scroll Parallax</li>
+                  <Link to="scroll-parallax" className="link">
+                     <li>React Scroll Parallax</li>
                   </Link>
                </ul>
             </nav>
